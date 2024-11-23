@@ -6,15 +6,15 @@
     <title>Contact Me</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class = "profile">
             <a href="home.html">
                 <img src="images/icon.png" alt="icon" width="55" >
             </a> 
-            <p> Welcome! </p>
+            <p class="welcome-text"> Welcome! </p>
         </div>
-        <nav>
-            <ul>
+        <nav class="navigation">
+            <ul class="nav-list">
                 <li> <a href="home.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="skills.html">SKILLS</a></li>
@@ -24,24 +24,24 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="contact-form">
             <h1>Contact Me</h1>
-            <p>I’d be happy to connect and offer a free consultation to discuss your project. Together, we can explore how I can help bring your ideas to life and guide you through the next steps.</p>
+            <p>I'd be happy to connect and offer a free consultation to discuss your project. Together, we can explore how I can help bring your ideas to life and guide you through the next steps.</p>
             <form action="example.com/path" method="post">
-                <div>
+                <div class="name-input">
                     <input type="text" id="name" name="name" required placeholder="Name">
                 </div>
-                <div>
+                <div class="email-input">
                     <input type="email" id="email" name="email" required placeholder="Email">
                 </div>
-                <div>
+                <div class="message-input">
                     <textarea id="message" name="message" rows="5" required placeholder="Message"></textarea>
                 </div>
                 <button type="submit">Submit</button>
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="footer" >
         <a href="https://twitter.com/saronyitbe" target="_blank">
             <img src="images/twitter.png" alt="Twitter logo" width="30" >
         </a>
@@ -54,6 +54,6 @@
         <a href="CV/cv.pdf" target="_blank">
             <img src="images/cv.png" alt="cv logo" width="30" >
         </a>
-    </footer>
+    </footer>  
 </body>
 </html>
