@@ -6,13 +6,23 @@
     <title>SARON</title>
     <link rel="stylesheet" href="css_files/home.css">
 </head>
+<script>
+    function toggleNav() {
+        const navList = document.querySelector('.nav-list'); 
+        navList.classList.toggle('hidden');
+    }
+</script>
+
 <body>
     <header class="header">
         <div class = "profile">
             <a href="home.html">
-                <img src="images/icon.png" alt="icon" width="45">
+                <img src="images/icon.png" alt="icon" width="44">
             </a> 
             <p class="welcome-text"> Welcome! </p>
+        </div>
+        <div class="hamburger" onclick="toggleNav()">
+            &#9776; 
         </div>
         <nav class="navigation">
             <ul class="nav-list">
@@ -30,22 +40,22 @@
             <p class="description">Aspiring Software Engineer | Problem Solver | Creative Thinker</p>
         </section>
         <div class="image-container">
-            <img src="images/home.jpg" alt="a picture" width="450" >
+            <img src="images/home.jpg" alt="a picture" width="659" height="347" >
         </div>
         <p class="welcome-message"> Welcome to my personal website!</p>
     </main> 
     <footer class="footer" >
         <a href="https://twitter.com/saronyitbe" target="_blank">
-            <img src="images/twitter.png" alt="Twitter logo" width="30" >
+            <img src="images/twitter.png" alt="Twitter logo" width="38" >
         </a>
         <a href="https://www.linkedin.com/in/saron-tigabu-4b8161213/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BltaO4j9KSku3%2Be5yZv6H6w%3D%3D" target="_blank">
-            <img src="images/linkedin.webp" alt="LinkedIn logo" width="30" >
+            <img src="images/linkedin.webp" alt="LinkedIn logo" width="41" >
         </a>
         <a href="https://github.com/saron03" target="_blank">
-            <img src="images/github.png" alt="GitHub logo" width="30" >
+            <img src="images/github.png" alt="GitHub logo" width="38" >
         </a>
         <a href="CV/cv.pdf" target="_blank">
-            <img src="images/cv.png" alt="cv logo" width="30" >
+            <img src="images/cv.png" alt="cv logo" width="38" >
         </a>
     </footer>  
 </body>
