@@ -29,16 +29,20 @@
             <h1>Contact Me</h1>
             <p>I'd be happy to connect and offer a free consultation to discuss your project. Together, we can explore how I can help bring your ideas to life and guide you through the next steps.</p>
             <form action="example.com/path" method="post">
-                <div class="name-input">
-                    <input type="text" id="name" name="name" required placeholder="Name">
-                </div>
-                <div class="email-input">
-                    <input type="email" id="email" name="email" required placeholder="Email">
+                <div class="name-email">
+                    <div class="name-input">
+                        <input type="text" id="name" name="name" required placeholder="Name">
+                    </div>
+                    <div class="email-input">
+                        <input type="email" id="email" name="email" required placeholder="Email">
+                    </div>
                 </div>
                 <div class="message-input">
                     <textarea id="message" name="message" rows="5" required placeholder="Message"></textarea>
                 </div>
-                <button type="submit">Submit</button>
+                <div class="submit-container">
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </section>
     </main>

@@ -48,17 +48,78 @@ a{
     color: black;
 }
 
-main{
-    margin: 60px;
-    width: 60%;
+
+main {
+    padding: 50px 15px;
 }
 
-h1{
-    margin-bottom: 30px;
-    margin-top: 15px;
+.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-form h1 {
     font-size: 40px;
     font-family: 'Merriweather';
+    margin-bottom: 20px;
 }
+
+.contact-form p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.name-email {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.name-input,
+.email-input {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+textarea {
+    margin-top: 0;
+    height: 90px;
+}
+
+button {
+    background-color: #6B8E8B;
+    font-size: 16px;
+    color:white;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 46.1vw;
+    margin-top: 10px;
+}
+
 
 
 footer{
