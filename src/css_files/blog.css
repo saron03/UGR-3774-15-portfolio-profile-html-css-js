@@ -49,7 +49,7 @@ a{
 }
 
 main{
-    margin: 20px 40px;;
+    margin: 10px 40px;
 }
 
 .top{
@@ -60,19 +60,154 @@ main{
     text-align: center;
     font-family: 'Merriweather';
     font-size: 40px;
+    margin-bottom: 5px;
+}
+.top p{
+    font-size: 18px;
+}
+.flex-body{
+    display: flex;
+    gap: 10%;
+    margin-top: 35px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 47vh 65vh 47vh;
+    width:45%;
+}
+
+.music-blog{
+    background-color: #E8F5E9;
+    border: 2px solid #A5D6A7;
+    padding: 20px; 
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.blogs h2 {
+    font-family: 'Merriweather'; 
+    font-size: 27px; 
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.blogs p {
+    font-size: 14px;
+}
+
+.blogs figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.music-blog img {
+    width: 270px;
+    height: 130px;
+    border-radius: 15px; 
+}
+
+.music-blog audio {
+    width: 55%; 
+    height: 45px;
+    border-radius: 25px; 
+    border: 1px solid black;
+    background-color: #E8F5E9; 
+}
+
+figcaption{
+    font-size: 12px;
+}
+
+.vacation-blog{
+    background-color: #E8F5E9;
+    border: 2px solid #A5D6A7;
+    padding: 20px; 
+    border-radius: 15px;
+    margin-bottom: 20px; 
+    margin-left: 70px;
+}
+
+.vacation-blog video {
+    width: 53%;
+    border-radius:20px;
     margin-bottom: 15px;
 }
 
-.flex-body{
-    display: flex;
-    gap: 40px;;
+.vacation-blog img{
+    width: 45%;
+    border-radius:20px;
+    height:150px;
+    margin-bottom: 15px;
 }
 
+.mulatu-blog{
+    background-color: #E8F5E9;
+    border: 2px solid #A5D6A7;
+    padding: 20px; 
+    border-radius: 15px;
+    margin-bottom: 20px; 
+    margin-left: 70px;
+}
 
+.mulatu-blog img{
+    width: 45%;
+    border-radius: 20px;
+}
 
+.aside-blog{
+    width:26%;
+    background-color: #E8F5E9;
+    border: 2px solid #A5D6A7;
+    padding: 20px; 
+    border-radius: 15px;
+    height:60vh;
+    margin-left: 50px;
+}
 
+.aside-blog h3{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
 
+.p-1-aside{
+    margin-top: 30px;
+    margin-bottom: 16x;
+    font-size: 20px;
+}
 
+.p-1-aside > .lists a{
+    color:#0E6BA8;
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.p-1-aside > .lists {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.p-2-aside{
+    margin-top: 50px;
+    display: flex;
+    gap:10px;
+    line-height: 25px;
+}
+
+.p-2-aside img{
+    width: 60px;
+}
 
 footer{
     width:300px;
