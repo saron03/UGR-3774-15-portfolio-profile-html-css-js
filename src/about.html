@@ -6,19 +6,22 @@
     <title>ABOUT ME</title>
     <link rel="stylesheet" href="css_files/about.css">
     <script>
-        function toggleNav() {
-            const navList = document.querySelector('.nav-list'); 
-            navList.classList.toggle('hidden');
-        }
+    function toggleNav() {
+        const navList = document.querySelector('.nav-list'); 
+        navList.classList.toggle('hidden');
+    }
     </script>
 </head>
 <body>
     <header class="header">
         <div class = "profile">
             <a href="home.html">
-                <img src="images/icon.png" alt="icon" width="50" >
+                <img src="images/icon.png" alt="icon" width="44" >
             </a> 
             <p class="welcome-text"> Welcome! </p>
+        </div>
+        <div class="hamburger" onclick="toggleNav()">
+            &#9776; 
         </div>
         <nav class="navigation">
             <ul class="nav-list">

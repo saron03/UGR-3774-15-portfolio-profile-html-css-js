@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#F8F1F1;
+    font-family: 'Source Sans Pro' , sans-serif;
+}
+
+.header{
+    display: flex;
+    padding: 0.3% 4%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6B8E8B;
+}
+
+.profile{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 3%;
+}
+
+.profile p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.nav-list{
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list li{
+    list-style-type: none;
+    background-color: white;
+    padding: 4px 0px;
+    width: 85px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+main h1{
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.skills-main{
+    margin: 20px;
+}
+
+.skills-body{
+    display: flex;
+    justify-content: center; /* Center the left and right sections horizontally */
+    align-items: center; /* Center them vertically in the container */
+    gap: 8vw;
+    margin: 0 auto; /* Center the entire container */
+    padding: 15px 0;
+}
+
+.future-skills{
+    margin-left: 0;
+    text-align: left; 
+    width: 60%;
+    margin: 20px auto;
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.skills-table thead {
+    background-color: #E8F5E9;
+    text-align: center;
+}
+
+.skills-table th,
+.skills-table td {
+    padding: 5px 15px;
+    border: 1px solid black;
+}
+
+.table-body .imgs{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.skills-body h2{
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 30px;
+}
+.soft-skills-list{
+    background-color: #E8F5E9;
+    padding: 34px;
+    width: 100%;      
+    margin: 20px 0;       
+    border-radius: 15px;
+    border: 2px solid #A5D6A7;
+    font-size: 18px;
+    line-height: 1.6;   
+}
+
+.soft-skills-list li {
+    margin: 5px 0px;
+    margin-left: 80px;
+}
+
+
+.future-title{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+footer{
+    width:220px;
+    height: 48px;
+    background-color:#6B8E8B;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    border-radius: 25px;
+    margin-bottom: 25px;
+
+}
+
+.hamburger{
+    display: none; 
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+
+.nav-list.hidden {
+    display: none;
+}

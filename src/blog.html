@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLOGS</title>
+    <link rel="stylesheet" href="css_files/blog.css">
+    <script>
+        function toggleNav() {
+            const navList = document.querySelector('.nav-list'); 
+            navList.classList.toggle('hidden');
+        }
+    </script>
 </head>
 <body>
     <header class="header">
         <div class = "profile">
             <a href="home.html">
-                <img src="images/icon.png" alt="icon" width="50" >
+                <img src="images/icon.png" alt="icon" width="44" >
             </a> 
             <p class="welcome-text"> Welcome! </p>
+        </div>
+        <div class="hamburger" onclick="toggleNav()">
+            &#9776; 
         </div>
         <nav class="navigation">
             <ul class="nav-list">
@@ -28,52 +38,54 @@
             <h1>Welcome to my Blog!</h1>
             <p>  Here are random things like my experiences, things that excite me, and more!</p>
         </section>
-        <div class="blogs">
-            <article class="music-blog">
-                <h2>My Love for Music</h2>
-                <p>I enjoy listening to R&B, rap, and various other genres of music. I have uploaded my favourite lates hit below.</p>
-                <figure>
-                    <figcaption>Spotify - my favourite music streaming app.</figcaption>
-                    <img src="images/spotify.jpg" alt="Music-related image" width="400">
-                    <audio controls>
-                        <source src="Audios/audio.mp3" type="audio/mp3">
-                        Your browser does not support the audio element.
-                    </audio>
-                </figure>  
-            </article>
-            <article class="vacation-blog">
-                <h2>My Summer Vacation at Debre Zeit</h2>
-                <p>I had a lot of fun with my siblings. We went on a boat, and here are some pictures and videos I took.</p>
-                <figure>
-                    <img src="images/debrezeit.jpg" alt="a picture in debrezeit"  width="290">
-                    <video controls width="300">
-                        <source src="Videos/lake.mp4" type="video/mp4" >
-                        Your browser does not support the video element.
-                    </video>
-                </figure>
-            </article>
-            <article class="mulatu-blog">
-                <h2>Meeting Mulatu Astatke</h2>
-                <p>I attended an event at Hilton Hotel, where I met Mulatu Astatke,the father of Ethio-jazz. He was humble and a very nice person.</p>
-                <figure>
-                    <figcaption>A picture of Mulatu Astatke.</figcaption>
-                    <img src="images/mulatu.jpg" alt="Mulatu Astatke" width="350">
-                </figure>
-            </article>
+        <div class="flex-body">
+            <div class="blogs">
+                <article class="music-blog">
+                    <h2>My Love for Music</h2>
+                    <p>I enjoy listening to R&B, rap, and various other genres of music. I have uploaded my favourite lates hit below.</p>
+                    <figure>
+                        <figcaption>Spotify - my favourite music streaming app.</figcaption>
+                        <img src="images/spotify.jpg" alt="Music-related image" width="400">
+                        <audio controls>
+                            <source src="Audios/audio.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </figure>  
+                </article>
+                <article class="vacation-blog">
+                    <h2>My Summer Vacation at Debre Zeit</h2>
+                    <p>I had a lot of fun with my siblings. We went on a boat, and here are some pictures and videos I took.</p>
+                    <figure>
+                        <img src="images/debrezeit.jpg" alt="a picture in debrezeit"  width="290">
+                        <video controls width="300">
+                            <source src="Videos/lake.mp4" type="video/mp4" >
+                            Your browser does not support the video element.
+                        </video>
+                    </figure>
+                </article>
+                <article class="mulatu-blog">
+                    <h2>Meeting Mulatu Astatke</h2>
+                    <p>I attended an event at Hilton Hotel, where I met Mulatu Astatke,the father of Ethio-jazz. He was humble and a very nice person.</p>
+                    <figure>
+                        <figcaption>A picture of Mulatu Astatke.</figcaption>
+                        <img src="images/mulatu.jpg" alt="Mulatu Astatke" width="350">
+                    </figure>
+                </article>
+            </div>
+            <aside class="aside-blog">
+                <h3>Blogging Websites I Enjoy</h3>
+                <p class="p-1-aside">
+                    Some of my favorite blogging websites are 
+                    <a href="https://medium.com/">Medium</a>, 
+                    <a href="https://www.boredpanda.com/">Bored Panda</a>, and 
+                    <a href="https://www.everywhereist.com/">The Everywhereist</a>
+                </p>
+                <p class="p-2-aside">
+                    <a href="https://www.instagram.com/saronyitbe" target="_blank"><img src="images/insta.png" alt="insta logo" width="30" ></a>
+                    Follow me on Instagram by clicking the icon for more future adventures, blogs, and updates!
+                </p>
+            </aside>  
         </div>
-        <aside class="aside-blog">
-            <h3>Blogging Websites I Enjoy</h3>
-            <p class="p-1-aside">
-                Some of my favorite blogging websites are 
-                <a href="https://medium.com/">Medium</a>, 
-                <a href="https://www.boredpanda.com/">Bored Panda</a>, and 
-                <a href="https://www.everywhereist.com/">The Everywhereist</a>
-            </p>
-            <p class="p-2-aside">
-                <a href="https://www.instagram.com/saronyitbe" target="_blank"><img src="images/insta.png" alt="insta logo" width="30" ></a>
-                Follow me on Instagram by clicking the icon for more future adventures, blogs, and updates!
-            </p>
-        </aside>  
     </main>
     <footer class="footer" >
         <a href="https://twitter.com/saronyitbe" target="_blank">

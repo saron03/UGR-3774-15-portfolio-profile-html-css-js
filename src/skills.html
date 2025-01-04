@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY SKILLS</title>
+    <link rel="stylesheet" href="css_files/skills.css">
+    <script>
+        function toggleNav() {
+            const navList = document.querySelector('.nav-list'); 
+            navList.classList.toggle('hidden');
+        }
+    </script>
 </head>
 <body>
     <header class="header">
         <div class = "profile">
             <a href="home.html">
-                <img src="images/icon.png" alt="icon" width="50" >
+                <img src="images/icon.png" alt="icon" width="44" >
             </a> 
             <p class="welcome-text"> Welcome! </p>
+        </div>
+        <div class="hamburger" onclick="toggleNav()">
+            &#9776; 
         </div>
         <nav class="navigation">
             <ul class="nav-list">
@@ -25,7 +35,7 @@
     </header>
     <main class="skills-main">
         <h1 class>My Skillset</h1>
-        <div class="skills-main">
+        <div class="skills-body">
             <section class="left">
                 <h2>Technical skills</h2>
                 <table class="skills-table">
@@ -38,34 +48,34 @@
                     <tbody class="table-body">
                         <tr>
                             <td>Front-End</td>
-                            <td>
-                                <img src="images/html_icon.png" alt="HTML" width="40">
-                                <img src="images/css_icon.png" alt="CSS" width="40">
-                                <img src="images/js_icon.png" alt="JavaScript" width="40">
+                            <td class="imgs">
+                                <img src="images/html_icon.png" alt="HTML" width="35">
+                                <img src="images/css_icon.png" alt="CSS" width="35">
+                                <img src="images/js_icon.png" alt="JavaScript" width="35">
                             </td>
                         </tr>
                         <tr>
                             <td>Back-End</td>
-                            <td>
-                                <img src="images/java_icon.png" alt="Java" width="40">
-                                <img src="images/python_icon.png" alt="Python" width="40">
-                                <img src="images/mysql_icon.png" alt="MySQL" width="40">
+                            <td class="imgs">
+                                <img src="images/java_icon.png" alt="Java" width="35">
+                                <img src="images/python_icon.png" alt="Python" width="35">
+                                <img src="images/mysql_icon.png" alt="MySQL" width="35">
                             </td>
                         </tr>
                         <tr>
                             <td>Version Control</td>
-                            <td>
-                                <img src="images/git_icon.png" alt="Git" width="40">
-                                <img src="images/github_icon.png" alt="GitHub" width="40">
-                                <img src="images/linux_icon.png" alt="Linux" width="40">
+                            <td class="imgs">
+                                <img src="images/git_icon.png" alt="Git" width="35">
+                                <img src="images/github_icon.png" alt="GitHub" width="35">
+                                <img src="images/linux_icon.png" alt="Linux" width="35">
                             </td>
                         </tr>
                         <tr>
                             <td>Cloud & Emerging Skills</td>
-                            <td>
-                                <img src="images/azure_icon.png" alt="Microsoft Azure" width="90">
-                                <img src="images/typescript_icon.png" alt="TypeScript" width="40">
-                                <img src="images/python_icon.png" alt="python" width="40">
+                            <td class="imgs">
+                                <img src="images/azure_icon.png" alt="Microsoft Azure" width="45">
+                                <img src="images/typescript_icon.png" alt="TypeScript" width="35">
+                                <img src="images/python_icon.png" alt="python" width="35">
                             </td>
                         </tr>
                     </tbody>
@@ -84,7 +94,7 @@
         <div class="future-skills">
             <p class="future-title">Future Learning Goals<p>
             <p>
-               In the near future, I plan to learn React.js for building dynamic user interfaces, Node.js to strengthen my backend development skills. These technologies will help me enhance my abilities as a software engineer.
+               In the near future, I plan to learn React.js for building dynamic user interfaces, Node.js to strengthen my </br> backend development skills. These technologies will help me enhance my abilities as a software engineer.
             </p>
         </div>        
     </main>
