@@ -103,7 +103,7 @@ footer{
 }
 
 
-@media (max-width: 935px) and (orientation: landscape) {
+@media only screen and (max-width: 935px) and (orientation: landscape) {
     .header {
         padding: 3px 25px;
         justify-content: space-between;
@@ -183,7 +183,7 @@ footer{
 }
 
 
-@media (max-width: 480px) and (orientation: portrait) {
+@media only screen and (max-width: 480px) and (orientation: portrait) {
     .header {
         display: flex;
         align-items: center;
@@ -262,7 +262,7 @@ footer{
 
 
 
-@media  (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and  (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .header {
         padding: 3px 25px;
         justify-content: space-between;
@@ -313,7 +313,7 @@ footer{
     }
 }
 
-@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1400px) and (orientation: landscape) {
     .header {
         padding: 3px 25px;
         justify-content: space-between;

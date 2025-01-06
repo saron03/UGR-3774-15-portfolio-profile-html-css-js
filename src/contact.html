@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT ME</title>
     <link rel="stylesheet" href="css_files/contact.css">
+    <script>
+        function toggleNav() {
+            const navList = document.querySelector('.nav-list'); 
+            navList.classList.toggle('hidden');
+        }
+    </script>
 </head>
 <body>
     <header class="header">
@@ -13,6 +19,9 @@
                 <img src="images/icon.png" alt="icon" width="44" >
             </a> 
             <p class="welcome-text"> Welcome! </p>
+        </div>
+        <div class="hamburger" onclick="toggleNav()">
+            &#9776; 
         </div>
         <nav class="navigation">
             <ul class="nav-list">
@@ -41,7 +50,7 @@
                     <textarea id="message" name="message" rows="5" required placeholder="Message"></textarea>
                 </div>
                 <div class="submit-container">
-                    <button type="submit">Submit</button>
+                    <button type="submit" class="submit">Submit</button>
                 </div>
             </form>
         </section>

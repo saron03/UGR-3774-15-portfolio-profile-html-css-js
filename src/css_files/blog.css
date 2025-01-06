@@ -234,3 +234,459 @@ footer{
 .nav-list.hidden {
     display: none;
 }
+
+
+
+@media only screen and (max-width: 935px) and (orientation: landscape) {
+    .header {
+        padding: 3px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile {
+        gap: 4%; 
+    }
+
+    .profile p {
+        font-size: 14px; 
+    }
+
+    .profile img {
+        width: 40px;
+        margin-top: 3px;
+    }
+
+    .nav-list {
+        justify-content: center;  
+        gap: 15px;                   
+        background-color: #6B8E8B;
+        position: absolute;
+        right: 0;
+        top: 54px;
+        width: 100%;                
+        padding: 15px 0;
+        display: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .nav-list.hidden {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block; 
+        position: absolute;
+        right: 28px;
+        padding: 10px ;
+        font-size: 25px;  
+    }
+
+    .top h1{
+        text-align: center;
+        font-family: 'Merriweather';
+        font-size:36px;
+        margin-top: 25px;
+    }
+    .top p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    main{
+        margin: 0;
+    }
+
+    .flex-body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2vw;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        gap: 2vw;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .aside-blog{
+        height: auto;
+        margin-left: 50px;
+        padding: 25px; 
+        width: 75%;
+    }
+
+    .vacation-blog video {
+        width: 40%;
+        border-radius:20px;
+        margin-bottom: 15px;
+    }
+
+    .vacation-blog img{
+        width: 30%;
+        border-radius:20px;
+        height:150px;
+        margin-bottom: 15px;
+    }
+
+
+    .mulatu-blog img{
+        width: 30%;
+        border-radius: 20px;
+    }
+
+    .vacation-blog,
+    .music-blog,
+    .mulatu-blog,
+    .aside-blog{
+        margin-left: 0;
+    }
+
+
+   
+    footer {
+        width: 30%;
+        padding: 2px;
+        gap: 4%; 
+        border-radius: 35px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 4px 25px;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .profile {
+        gap: 5px; 
+    }
+
+    .profile img{
+        width: 40px;
+    }
+    
+    .profile p{
+        font-size: 13px;
+    }
+
+    .hamburger {
+        display: block; 
+        position: absolute;
+        right: 28px;
+        top: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #6B8E8B;
+        position: absolute;
+        top: 53px;
+        right: 0;
+        width: 100%;
+        padding: 20px 0;
+        display: none; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .nav-list.hidden {
+        display: flex; 
+    }
+
+
+    .top h1{
+        text-align: center;
+        font-family: 'Merriweather';
+        font-size:32px;
+        margin-top: 25px;
+    }
+    .top p{
+        font-size: 14px;
+        margin:10px
+    }
+    main{
+        margin: 0;
+    }
+
+    .flex-body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2vw;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        gap: 2vw;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .aside-blog{
+        height: auto;
+        margin-left: 50px;
+        padding: 20px; 
+        width: 75%;
+    }
+
+    .vacation-blog video {
+        width: 90%;
+        border-radius:20px;
+        margin-bottom: 15px;
+    }
+
+    .vacation-blog img{
+        width: 80%;
+        border-radius:20px;
+        height:150px;
+        margin-bottom: 15px;
+    }
+
+
+    .mulatu-blog img{
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .vacation-blog,
+    .music-blog,
+    .mulatu-blog,
+    .aside-blog{
+        margin-left: 0;
+    }
+
+
+    .music-blog audio {
+        width: 95%; 
+        height: 45px;
+        border-radius: 25px; 
+        border: 1px solid black;
+        background-color: #E8F5E9; 
+    }
+    footer {
+        width: 60%; 
+        padding: 1px; 
+        gap: 5%; 
+        border-radius: 25px;
+    }
+   
+}
+
+
+
+@media only screen and  (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .header {
+        padding: 3px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile {
+        gap: 4%;
+    }
+
+    .profile p {
+        font-size: 15px;
+    }
+
+    .profile img {
+        width: 45px;
+        margin-top: 3px;
+    }
+
+    .top h1{
+        text-align: center;
+        font-family: 'Merriweather';
+        font-size:36px;
+        margin-top: 25px;
+    }
+    .top p{
+        font-size: 18px;
+        margin:10px
+    }
+    main{
+        margin: 0;
+    }
+
+    .flex-body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2vw;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        gap: 2vw;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .blogs p {
+        font-size: 18px;
+    }
+    .aside-blog{
+        height: auto;
+        margin-left: 50px;
+        padding: 20px; 
+        width: 75%;
+    }
+
+    .vacation-blog video {
+        width: 50%;
+        border-radius:20px;
+        margin-bottom: 15px;
+    }
+
+    .vacation-blog img{
+        width: 40%;
+        border-radius:20px;
+        height:150px;
+        margin-bottom: 15px;
+    }
+
+
+    .mulatu-blog img{
+        width: 40%;
+        border-radius: 20px;
+    }
+
+    .vacation-blog,
+    .music-blog,
+    .mulatu-blog,
+    .aside-blog{
+        margin-left: 0;
+    }
+
+
+    .music-blog audio {
+        width: 55%; 
+        height: 45px;
+        border-radius: 25px; 
+        border: 1px solid black;
+        background-color: #E8F5E9; 
+    }
+
+
+    footer {
+        width: 25%;
+        padding: 2px;
+        gap: 4%;
+        border-radius: 35px;
+        margin-top: 70px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) and (orientation: landscape) {
+    .header {
+        padding: 3px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile {
+        gap: 4%;
+    }
+
+    .profile p {
+        font-size: 15px;
+    }
+
+    .profile img {
+        width: 45px;
+        margin-top: 3px;
+    }
+
+
+    .aside-blog{
+        width:40%;
+        background-color: #E8F5E9;
+        border: 2px solid #A5D6A7;
+        padding: 20px; 
+        border-radius: 15px;
+        height:25%;
+        margin-left: 50px;
+    }
+
+
+    .blogs{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 32% 41% 34%;
+        width:55%;
+    }
+
+
+    .vacation-blog video {
+        width: 60%;
+        border-radius:20px;
+        margin-bottom: 15px;
+    }
+
+    .vacation-blog img{
+        width: 50%;
+        border-radius:20px;
+        height:150px;
+        margin-bottom: 15px;
+    }
+
+
+    .mulatu-blog img{
+        width: 60%;
+        border-radius: 20px;
+    }
+
+
+
+    .vacation-blog,
+    .music-blog,
+    .mulatu-blog,
+    .aside-blog{
+        margin-left: 0;
+
+    }
+    .music-blog audio {
+        width: 75%; 
+        height: 45px;
+        border-radius: 25px; 
+        border: 1px solid black;
+        background-color: #E8F5E9; 
+    }
+
+    footer {
+        width: 20%;
+        padding:5px;
+        gap: 4%;
+        border-radius: 35px;
+        margin-top: 100px;
+    }
+
+}

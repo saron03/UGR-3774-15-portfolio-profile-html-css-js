@@ -62,10 +62,10 @@ main h1{
 
 .skills-body{
     display: flex;
-    justify-content: center; /* Center the left and right sections horizontally */
-    align-items: center; /* Center them vertically in the container */
+    justify-content: center; 
+    align-items: center; 
     gap: 8vw;
-    margin: 0 auto; /* Center the entire container */
+    margin: 0 auto;
     padding: 15px 0;
 }
 
@@ -82,6 +82,7 @@ main h1{
     margin: 20px 0;
     font-size: 18px;
     text-align: left;
+    padding: 0;
 }
 
 .skills-table thead {
@@ -91,8 +92,10 @@ main h1{
 
 .skills-table th,
 .skills-table td {
-    padding: 5px 15px;
+    padding: 13px 15px;
     border: 1px solid black;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .table-body .imgs{
@@ -110,7 +113,7 @@ main h1{
     background-color: #E8F5E9;
     padding: 34px;
     width: 100%;      
-    margin: 20px 0;       
+    margin: 0;       
     border-radius: 15px;
     border: 2px solid #A5D6A7;
     font-size: 18px;
@@ -129,6 +132,13 @@ main h1{
     font-weight: bold;
 }
 
+.one{
+    background-color: #E8F5E9;
+}
+
+.two{
+    background-color: #E8F5E9;
+}
 
 footer{
     width:220px;
@@ -155,4 +165,351 @@ footer{
 
 .nav-list.hidden {
     display: none;
+}
+
+
+
+@media only screen and (max-width: 935px) and (orientation: landscape) {
+    .header {
+        padding: 3px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile {
+        gap: 4%; 
+    }
+
+    .profile p {
+        font-size: 14px; 
+    }
+
+    .profile img {
+        width: 40px;
+        margin-top: 3px;
+    }
+
+    .nav-list {
+        justify-content: center;  
+        gap: 15px;                   
+        background-color: #6B8E8B;
+        position: absolute;
+        right: 0;
+        top: 54px;
+        width: 100%;                
+        padding: 15px 0;
+        display: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .nav-list.hidden {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block; 
+        position: absolute;
+        right: 28px;
+        padding: 10px ;
+        font-size: 25px;  
+    }
+
+
+    main h1{
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 36px;
+    margin-bottom: 10px;
+    }
+
+
+    .skills-body h2{
+        text-align: center;
+        font-family: 'Merriweather';
+        font-size: 27px;
+    }
+
+    .skills-main{
+        margin: 10px;
+    }
+    
+    .skills-body{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        gap: 1vw;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+
+    .soft-skills-list{
+        background-color: none;
+        padding: 0;
+        width: 80%;      
+        margin: 0;       
+        border-radius: 0px;
+        border: none;
+        font-size: 15px;
+    }
+
+    .soft-skills-list li{
+        margin-left: 45%;
+        width: 60%;
+    }
+
+    .two .imgs{
+        padding-bottom: 20px;
+    }
+
+    .right{
+        background-color: #E8F5E9;
+        padding: 20px;
+        width: 80%;      
+        margin: 10px 0;       
+        border-radius: 15px;
+        border: 2px solid #A5D6A7;
+        font-size: 18px;
+        line-height: 1.6;   
+}
+
+
+    .left{
+        width: 85%;
+    }
+
+    footer {
+        width: 30%;
+        padding: 2px;
+        gap: 4%; 
+        border-radius: 35px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 4px 25px;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .profile {
+        gap: 5px; 
+    }
+
+    .profile img{
+        width: 40px;
+    }
+    
+    .profile p{
+        font-size: 13px;
+    }
+
+    .hamburger {
+        display: block; 
+        position: absolute;
+        right: 28px;
+        top: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #6B8E8B;
+        position: absolute;
+        top: 53px;
+        right: 0;
+        width: 100%;
+        padding: 20px 0;
+        display: none; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .nav-list.hidden {
+        display: flex; 
+    }
+
+
+    .skills-body{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        gap: 1vw;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+    .skills-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 12px;
+        text-align: left;
+    }
+    
+    .soft-skills-list{
+        background-color: #E8F5E9;
+        padding: 15px 34px;
+        width: 80%;      
+        margin: 10px 0;      
+        border-radius: 15px;
+        border: 2px solid #A5D6A7;
+        font-size: 18px;
+        line-height: 1.6;   
+    }
+
+
+    .future-skills{
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        margin-left: 17px;
+    }
+    footer {
+        width: 60%; 
+        padding: 1px; 
+        gap: 5%; 
+        border-radius: 25px;
+    }
+
+}
+
+
+@media only screen and  (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .header {
+        padding: 3px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile {
+        gap: 4%;
+    }
+
+    .profile p {
+        font-size: 15px;
+    }
+
+    .profile img {
+        width: 45px;
+        margin-top: 3px;
+    }
+
+    .skills-main{
+        width: 100%;
+    }
+
+    main h1{
+        text-align: center;
+        font-family: 'Merriweather';
+        font-size: 40px;
+        margin-bottom: 10px;
+        }
+    
+
+    .skills-body{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        gap: 1vw;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+    
+    .skills-table {
+        width: 700px;
+        border-collapse: collapse;
+        margin: 20px auto;
+        font-size: 20px;
+        text-align: center;
+        box-sizing: border-box;
+        font-weight: 700;
+    }
+
+
+    .skills-table th, 
+    .skills-table td {
+        padding: 10px 8px; /* Adjust padding for smaller screens */
+        border: 1px solid black;
+    }
+    
+    .areas,
+    .tools{
+        font-size: 24px;
+    }
+    .soft-skills-list{
+        background-color: #E8F5E9;
+        padding: 20px 15px;
+        width: 680px;      
+        margin: 20px auto;      
+        border-radius: 15px;
+        border: 2px solid #A5D6A7;
+        font-size: 20px;
+        line-height: 1.6;   
+    }
+
+    .skills-body h2{
+        text-align: center;
+        font-family: 'Merriweather';
+        font-size: 35px;
+    }
+    .future-skills{
+        padding: 10px;
+        margin: 15px 0;
+        width: 700px;
+        margin-left: 14vw;
+        font-size: 20px;
+    }
+    footer {
+        width: 250px; 
+        padding: 1px; 
+        gap: 5%; 
+        border-radius: 25px;
+
+}
+
+}
+ 
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) and (orientation: landscape) {
+    .header {
+        padding: 3px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile {
+        gap: 4%;
+    }
+
+    .profile p {
+        font-size: 15px;
+    }
+
+    .profile img {
+        width: 45px;
+    }  
+
+
+    .skills-body{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        gap: 8vw;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+
 }

@@ -147,3 +147,244 @@ footer{
 .nav-list.hidden {
     display: none;
 }
+
+@media only screen and (max-width: 935px) and (orientation: landscape) {
+    .header {
+        padding: 3px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile {
+        gap: 4%; 
+    }
+
+    .profile p {
+        font-size: 14px; 
+    }
+
+    .profile img {
+        width: 40px;
+        margin-top: 3px;
+    }
+
+    .nav-list {
+        justify-content: center;  
+        gap: 15px;                   
+        background-color: #6B8E8B;
+        position: absolute;
+        right: 0;
+        top: 54px;
+        width: 100%;                
+        padding: 15px 0;
+        display: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .nav-list.hidden {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block; 
+        position: absolute;
+        right: 28px;
+        padding: 10px ;
+        font-size: 25px;  
+    }
+
+    .contact-form{
+        width: 40%;
+    }
+    .name-email{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .submit-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+        width: 110%;
+    }
+
+    footer {
+        width: 30%;
+        padding: 2px;
+        gap: 4%; 
+        border-radius: 35px;
+    }
+}
+    
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 4px 25px;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .profile {
+        gap: 5px; 
+    }
+
+    .profile img{
+        width: 40px;
+    }
+    
+    .profile p{
+        font-size: 13px;
+    }
+
+    .hamburger {
+        display: block; 
+        position: absolute;
+        right: 28px;
+        top: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #6B8E8B;
+        position: absolute;
+        top: 53px;
+        right: 0;
+        width: 100%;
+        padding: 20px 0;
+        display: none; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .nav-list.hidden {
+        display: flex; 
+    }
+
+    .name-email{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .submit-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+        width: 115%;
+    }
+    .contact-form{
+        width: 65%;
+    }
+
+    footer {
+        width: 60%; 
+        padding: 1px; 
+        gap: 5%; 
+        border-radius: 25px;
+    }
+}
+
+
+@media only screen and  (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .header {
+        padding: 3px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile {
+        gap: 4%;
+    }
+
+    .profile p {
+        font-size: 15px;
+    }
+
+    .profile img {
+        width: 45px;
+        margin-top: 3px;
+    }
+
+    footer {
+        width: 25%;
+        padding: 2px;
+        gap: 4%;
+        border-radius: 35px;
+    }
+
+
+    .contact-form {
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .contact-form h1 {
+        font-size: 40px;
+        font-family: 'Merriweather';
+        margin-bottom: 20px;
+    }
+
+    .contact-form p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    
+
+    .submit-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+        width: 107%;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) and (orientation: landscape) {
+    .header {
+        padding: 3px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile {
+        gap: 4%;
+    }
+
+    .profile p {
+        font-size: 15px;
+    }
+
+    .profile img {
+        width: 45px;
+        margin-top: 3px;
+    }
+    .contact-form {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .contact-form p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    
+
+    .submit-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+        width: 105%;
+    }
+
+    footer {
+        width: 20%;
+        padding:5px;
+        gap: 4%;
+        border-radius: 35px;
+    }
+    
+}
