@@ -43,10 +43,21 @@ body{
     border-radius: 5px;
 }
 
-a{
+.nav-list li a{
     text-decoration: none;
     color: black;
+    display: block;
+    
 }
+  
+nav ul li.active {
+    background-color: black;
+}
+
+nav ul li.active a {
+    color: white;
+}
+
 
 main{
     text-align: center;
@@ -151,7 +162,7 @@ footer{
 
     
     .name {
-        font-size: 36px;
+        font-size: 30px;
         margin-top: 20px; 
     }
 
@@ -231,7 +242,7 @@ footer{
     }
 
     .name {
-        font-size: 35px;
+        font-size: 30px;
         margin-top: 30px; 
     }
 
@@ -283,7 +294,7 @@ footer{
     }
 
     .name {
-        font-size: 40px;
+        font-size: 36px;
         margin-top: 40px;
     }
 
@@ -304,6 +315,8 @@ footer{
         margin-top: 55px;
         margin-top: 55px;
     }
+
+    
 
     footer {
         width: 25%;

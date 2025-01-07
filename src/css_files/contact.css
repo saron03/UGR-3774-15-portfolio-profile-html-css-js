@@ -16,6 +16,11 @@ body{
     background-color: #6B8E8B;
 }
 
+h1{
+    font-size: 40px;
+    font-family: 'Merriweather';
+}
+
 .profile{
     display: flex;
     justify-content:flex-start;
@@ -42,10 +47,17 @@ body{
     text-align: center;
     border-radius: 5px;
 }
-
-a{
+.nav-list li a{
     text-decoration: none;
     color: black;
+}
+  
+nav ul li.active {
+    background-color: black;
+}
+
+nav ul li.active a {
+    color: white;
 }
 
 
@@ -208,6 +220,10 @@ footer{
         margin-top: 10px;
         width: 110%;
     }
+    h1{
+        font-size: 30px;
+        font-family: 'Merriweather';
+    }
 
     footer {
         width: 30%;
@@ -264,6 +280,11 @@ footer{
         display: flex; 
     }
 
+    h1{
+        font-size: 30px;
+        font-family: 'Merriweather';
+    }
+
     .name-email{
         display: flex;
         flex-direction: column;
@@ -315,14 +336,13 @@ footer{
         border-radius: 35px;
     }
 
-
     .contact-form {
         width: 55%;
         margin: 0 auto;
     }
 
     .contact-form h1 {
-        font-size: 40px;
+        font-size: 36px;
         font-family: 'Merriweather';
         margin-bottom: 20px;
     }
@@ -371,7 +391,11 @@ footer{
         font-size: 18px;
         margin-bottom: 30px;
     }
-    
+        
+    h1{
+        font-size:36px;
+        font-family: 'Merriweather';
+    }
 
     .submit-container {
         display: flex;

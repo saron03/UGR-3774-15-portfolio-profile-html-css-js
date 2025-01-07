@@ -42,10 +42,17 @@ body{
     text-align: center;
     border-radius: 5px;
 }
-
-a{
+.nav-list li a{
     text-decoration: none;
     color: black;
+}
+  
+nav ul li.active {
+    background-color: black;
+}
+
+nav ul li.active a {
+    color: white;
 }
 
 main{
@@ -89,7 +96,7 @@ main{
 
 .blogs h2 {
     font-family: 'Merriweather'; 
-    font-size: 27px; 
+    font-size: 28px; 
     margin-bottom: 10px;
     text-align: center;
 }
@@ -174,12 +181,12 @@ figcaption{
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .p-1-aside{
     margin-top: 30px;
-    margin-bottom: 16x;
+    margin-bottom: 16px;
     font-size: 20px;
 }
 
@@ -286,7 +293,7 @@ footer{
     .top h1{
         text-align: center;
         font-family: 'Merriweather';
-        font-size:36px;
+        font-size:30px;
         margin-top: 25px;
     }
     .top p{
@@ -296,6 +303,21 @@ footer{
     main{
         margin: 0;
     }
+
+    .blogs h2 {
+        font-family: 'Merriweather'; 
+        font-size: 20px; 
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .aside-blog h3{
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
 
     .flex-body{
         display: flex;
@@ -413,8 +435,22 @@ footer{
     .top h1{
         text-align: center;
         font-family: 'Merriweather';
-        font-size:32px;
+        font-size:30px;
         margin-top: 25px;
+    }
+
+    .blogs h2 {
+        font-family: 'Merriweather'; 
+        font-size: 20px; 
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .aside-blog h3{
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 18px;
     }
     .top p{
         font-size: 14px;
@@ -521,10 +557,21 @@ footer{
         font-size:36px;
         margin-top: 25px;
     }
-    .top p{
-        font-size: 18px;
-        margin:10px
+
+    .blogs h2 {
+        font-family: 'Merriweather'; 
+        font-size: 24px; 
+        margin-bottom: 10px;
+        text-align: center;
     }
+
+    .aside-blog h3{
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+  
     main{
         margin: 0;
     }
@@ -636,6 +683,27 @@ footer{
         margin-left: 50px;
     }
 
+
+    .top h1{
+        text-align: center;
+        font-family: 'Merriweather';
+        font-size:36px;
+        margin-top: 25px;
+    }
+
+    .blogs h2 {
+        font-family: 'Merriweather'; 
+        font-size: 24px; 
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .aside-blog h3{
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
 
     .blogs{
         display: grid;
