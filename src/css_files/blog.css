@@ -168,7 +168,7 @@ figcaption{
 }
 
 .aside-blog{
-    width:26%;
+    width:380px;
     background-color: #E8F5E9;
     border: 2px solid #A5D6A7;
     padding: 20px; 
@@ -333,7 +333,7 @@ footer{
         display: flex;
         flex-direction: column;
         width: 80%;
-        gap: 2vw;
+        gap: 1.5vw;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
@@ -342,7 +342,9 @@ footer{
         height: auto;
         margin-left: 50px;
         padding: 25px; 
-        width: 75%;
+        width: 80%;
+        min-width: 52%;
+        margin-top: 12%;
     }
 
     .vacation-blog video {
