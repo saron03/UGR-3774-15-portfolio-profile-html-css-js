@@ -333,7 +333,7 @@ footer{
         display: flex;
         flex-direction: column;
         width: 80%;
-        gap: 1.5vw;
+        gap: 2vw;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
@@ -343,7 +343,7 @@ footer{
         margin-left: 50px;
         padding: 25px; 
         width: 80%;
-        min-width: 52%;
+        min-width: 53%;
         margin-top: 12%;
     }
 

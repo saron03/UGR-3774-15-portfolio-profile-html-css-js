@@ -289,6 +289,7 @@ footer{
         border: 2px solid #A5D6A7;
         font-size: 18px;
         line-height: 1.6;   
+        align-self: auto;
 }
 
 
@@ -408,7 +409,7 @@ footer{
         margin: 0;
         width: 80%;
         margin-left: 17px;
-        margin-top: 20px;
+        margin-top: 0;
     }
     footer {
         width: 60%; 
@@ -507,6 +508,10 @@ footer{
         margin-left: 14vw;
         font-size: 20px;
     }
+
+    .right{
+        align-self: auto;
+    }
     footer {
         width: 250px; 
         padding: 1px; 
@@ -542,6 +547,9 @@ footer{
         font-family: 'Merriweather';
         font-size: 36px;
         margin-bottom: 10px;
+    }
+    .right{
+        align-self: flex-start
     }
     
     .skills-body h2{
