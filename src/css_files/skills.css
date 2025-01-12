@@ -548,7 +548,7 @@ footer{
         margin-bottom: 10px;
     }
     .right{
-        align-self: flex-start
+        align-self: flex-start;
     }
     
     .skills-body h2{
@@ -561,10 +561,12 @@ footer{
         display: flex;
         justify-content: center; 
         align-items: center; 
-        gap: 8vw;
-        margin: 0 auto;
-        padding: 15px 0;
-    }
-    
+        gap: 6vw;
+    } 
 
+    .future-skills{
+        text-align: start;
+        margin-right: 25%;
+        margin-left: 17%;
+    }
 }
